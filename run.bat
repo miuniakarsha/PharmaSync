@@ -1,5 +1,5 @@
 @echo off
-cd /d "%~dp0PharmaSync"
+cd /d "%~dp0"
 if not exist mvnw.cmd (
   echo Could not find mvnw.cmd in %cd%
   pause
